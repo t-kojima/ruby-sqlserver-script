@@ -1,0 +1,7 @@
+development:
+  adapter:  "sqlserver"
+  host:     "VMSERVER"
+  username: "valor"
+  password: "valor"
+  database: "valor"
+  

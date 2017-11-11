@@ -1,0 +1,40 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activemodel (4.1.16)
+      activesupport (= 4.1.16)
+      builder (~> 3.1)
+    activerecord (4.1.16)
+      activemodel (= 4.1.16)
+      activesupport (= 4.1.16)
+      arel (~> 5.0.0)
+    activerecord-sqlserver-adapter (4.1.8)
+      activerecord (~> 4.1.0)
+      arel
+    activesupport (4.1.16)
+      i18n (~> 0.6, >= 0.6.9)
+      json (~> 1.7, >= 1.7.7)
+      minitest (~> 5.1)
+      thread_safe (~> 0.1)
+      tzinfo (~> 1.1)
+    arel (5.0.1.20140414130214)
+    builder (3.2.3)
+    concurrent-ruby (1.0.5)
+    i18n (0.9.1)
+      concurrent-ruby (~> 1.0)
+    json (1.8.6)
+    minitest (5.10.3)
+    thread_safe (0.3.6)
+    tiny_tds (2.1.0-x64-mingw32)
+    tzinfo (1.2.4)
+      thread_safe (~> 0.1)
+
+PLATFORMS
+  x64-mingw32
+
+DEPENDENCIES
+  activerecord-sqlserver-adapter (~> 4.1.0)
+  tiny_tds
+
+BUNDLED WITH
+   1.15.4
